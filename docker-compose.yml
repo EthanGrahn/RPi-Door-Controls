@@ -1,0 +1,7 @@
+version: "3"
+services:
+  express:
+    build: .
+    image: docker.pkg.github.com/ethangrahn/rpi-door-controls/door-pi:latest
+    ports:
+      - "3000:3000"
